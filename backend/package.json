@@ -1,0 +1,19 @@
+{
+  "name": "downloader-server",
+  "version": "1.0.0",
+  "description": "API server for the video downloader (wraps yt-dlp)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,13 @@
+node_modules/
+node_modules.zip
+.env
+.env.*
+!.env.example
+
+downloads/*
+!downloads/.gitkeep
+
+frontend/dist/
+backend/dist/
+*.log
+__pycache__/
